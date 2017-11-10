@@ -23,6 +23,7 @@ function displayTab3 () {
 }
 */
 var tabs = document.querySelectorAll(".tabs");
+var parrafos = document.querySelectorAll(".parrafos");
 
 function toggleTab (elem){
   for (var i = 0; i < elem.length; i++) {
@@ -31,7 +32,9 @@ function toggleTab (elem){
 }
 
 function showContainers() {
-  this.classList.add("red");
+  for (var j = 0; j < parrafos.length; j++) {
+    parrafos[j].dataset.text;
+  }
 
 }
 
