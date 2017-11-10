@@ -1,0 +1,25 @@
+* {
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tabs {
+    display: inline-block;
+    padding: 20px;
+    margin: 30px;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.p {
+  width: 60%;
+}
+
+.hidden {
+    display: none;
+}
+
+.red{
+  background-color: red;
+}
